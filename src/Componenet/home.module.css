@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#homepage{
+    height: 80px;
+    width: 100%;
+    background-color:black;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#homepage>a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-shadow: 0px 0px 10px white;
+}
+#myform{
+    height: 88vh;
+    width: 100%;
+    /* background-color: rgb(27, 24, 24);    */
+    color: aliceblue;
+    display: flex;
+    background: linear-gradient(rgb(119, 211, 232),rgb(239, 229, 36));
+    justify-content: center;
+    align-items: center;
+}
+#myform>form{
+    height: 320px;
+    width: 300px;
+    border: 1px solid white;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px ;
+    box-shadow: 0px 0px 20px snow;
+    
+    /* line height: 3.5; */
+   
+}
+h4{
+    letter-spacing: 5px;
+    margin-bottom: 4px;
+}
+
+#myform>form>input{
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    font-weight: 200;
+    box-shadow: 0px 0px 10px white;
+}
+
+#myform>form>input:focus{
+    outline: none;
+    
+}
+
+#myform>form>button{
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 30px;
+    /* margin-top: 7px; */
+    background-color: rgb(249, 213, 213);
+
+    box-shadow: 0px 0px 10px white;
+    color: black;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgb(247, 247, 246);
+    
+
+    
+}
+#myform>form>button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: 0.5s;
+    color: bisque;
+    background-color: rgb(0, 183, 255);
+}
+
+#userhome{
+    height: 84vh;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#userhome>div{
+ height: 250px;
+ width: 230px;
+ box-shadow: 0px 0px 30px white;
+ padding: 14px;
+ border-radius: 10px;
+ color: aliceblue;
+}
+
+#userhome>div:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#userhome>div>table>tr>td,th{
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+#userhome>div>table>tr>td>button{
+    height: 20px;
+    width: 60px;
+    background-color: #000000;
+    color: aliceblue;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 10px;
+    box-shadow: 0px 0px 20px white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+
+}
+
+#userhome>div>table>tr>td>button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1s;
+}
+
+#userhome>div>table>tr>td>button>a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 700;
+    text-shadow: 0px 0xp 10px whitesmoke;
+}
+
+
+
